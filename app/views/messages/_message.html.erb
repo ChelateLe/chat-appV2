@@ -1,0 +1,18 @@
+<div class="message">
+  <div class="upper-message">
+    <div class="message-user">
+      <%# ユーザー名 %>
+      <%= message.user.name %>
+    </div>
+    <div class="message-date">
+      <%# 時刻 %>
+      <%= l message.created_at %>
+    </div>  
+  </div>
+  <div class="lower-message">
+    <div class="message.content">
+      <%# 投稿したメッセージ %>
+      <%= message.content %>
+    </div>
+  </div>
+</div>
