@@ -12,37 +12,7 @@
 </div>
 
 <div class="messages">
-  <div class="message">
-    <div class="upper-message">
-      <div class="message-user">
-        名前
-      </div>
-      <div class="message-date">
-        時間の表記
-      </div>
-    </div>  
-    <div class="lower-message">
-      <div class="message-content">
-        ここに文章が出ます
-      </div>
-    </div>
-  </div>  
-
-  <div class="message">
-    <div class="upper-message">
-      <div class="message-user">
-        名前
-      </div>
-      <div class="message-date">
-        時間の表記
-      </div>
-    </div>  
-    <div class="lower-message">
-      <div class="message-content">
-        ここに文章が出ます
-      </div>
-    </div>
-  </div>  
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 
